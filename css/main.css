@@ -46,3 +46,135 @@ body[name="index"] {
     background-color: #F7F7F7; 
 }
 
+/* Sign in form area for index/landing page*/
+#parent-form {
+    display: table;
+    width:20%;
+    border: none;
+    box-shadow: #000000;
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    margin: auto;
+    padding: 1em;
+    background-color: #ffffff;
+}
+
+form .logo img {
+    width: 3em;
+    height: 3em;
+    position: relative;
+    display: inline-block;
+    margin:  1em  10em  1em;
+}
+
+/* All Pages Labels description */
+ form .sub-container label[for="username"], [for="pswd"], [for="name"] {
+    color: #000000;
+    font-size: 12px;
+    padding-left: 2em;
+}
+
+/* Input  description for index page only */
+form .sub-container input[name="uname"], [name="pswd"], [name="email"] {
+    width: 25.3em;
+    height: 1.5em;
+    border-radius: 2em;
+    font-size: 12px;
+    margin: 1em 0 1em 2em;
+    padding: 0.5em 0.5em 0.5em 2em;
+}
+
+/* Input description for create account name/ singUp flow only*/
+form .sub-container input[name="names"] {
+    width: 10em;
+    height: 1.5em;
+    border-radius: 2em;
+    font-size: 12px;
+    margin: 1em 0 1em 2em;
+    padding: 0.5em 0.5em 0.5em 2em;
+}
+/*Input description for create acctount passwords only*/
+form .sub-container input[name="new-pswd"], [name="conf-pswd"] {
+    width: 10em;
+    height: 1.5em;
+    border-radius: 2em;
+    font-size: 12px;
+    margin: 1em 0 1em 2em;
+    padding: 0.5em 0.5em 0.5em 2em;
+}
+
+form .sub-container button[name="sign01"] {
+    width: 26em;
+    height: 3em;
+    border-radius: 2em;
+    font-size: 12px;
+    color: #ffffff;
+    background-color:#0A70AE; 
+    border: none;
+    margin: 0.5em 0 0 2em;
+    text-transform: uppercase;
+}
+
+/* Next01 and opt-back- signIn Button Create account Page*/
+form .sub-container button[name="next01"] {
+    width: 5em;
+    height: 3em;
+    border-radius: 2em;
+    font-size: 12px;
+    position: absolute;
+    color: #ffffff;
+    background-color:#0A70AE; 
+    border: none;
+    margin: .5em 3.5em 0 5.5em;
+    text-transform: uppercase;
+}
+
+form .sub-container button[name="opt-back-signIn"] {
+    width: 14.3em;
+    height: 3em;
+    border-radius: 2em;
+    font-size: 12px;
+    color: #0A70AE;
+    border: none;
+    margin: .5em 3.5em 0 1.2em;
+    text-transform: capitalize;
+    text-align: left
+}
+form #opt-text02 {
+    margin: .5em 2em 0 2em;
+    color: #0A70AE;
+    font-size: 12px;
+}
+
+form #checkbox {
+    margin: 0.5em 0 0 2em;
+    font-size: 12px;
+    display: flex; 
+}
+
+form .fgt-pswd {
+   margin: 0 0 0 8em;
+}
+form .tc{
+   font-size: 11px;
+   margin: 3em 0 0 2em;
+   float: left;
+ }
+form .opt-signIn  img {
+    width: 2em;
+    height: 2em;
+    position: relative;
+    display: flex;
+    margin: 0.5em 3.3em 1em 2em;
+    float: left;
+}
+form #opt-text01 {
+    margin: 2em 2em 0 2em;
+    color: #0A70AE;
+    font-size: 12px;
+}
+
+
