@@ -71,7 +71,7 @@ form .logo img {
 }
 
 /* All Pages Labels description */
- form .sub-container label[for="username"], [for="pswd"], [for="name"] {
+ form .sub-container label[for="username"], [for="pswd"], [for="name"], [for="pnumber"] {
     color: #000000;
     font-size: 12px;
     padding-left: 2em;
