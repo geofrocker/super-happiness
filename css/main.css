@@ -6,6 +6,16 @@ body[name="index"] {
     background: url(../img/background-blur-clean-531880.jpg);
 }
 
+/* Sign up flow body styling */
+body[name="crt-account"] {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1em;
+    background: url(../img/Sign\ up.jpg) 0 -400px no-repeat;
+}
+
+
 
 /* This area describe the header region  for Sign in and Create account landing page*/
 .header-container {
