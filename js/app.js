@@ -1,19 +1,27 @@
-// Create a pop page for creating a meet up and meet up tittle.
+const express = require('express');
+const app = express();
 
 
 
-    // Get the button that opens the Meetup window
-    let btnCreateNewMeetup = document.getElementById('btn-new-meetups');
-    // Get the img that closes the meet up
-    let btnCloseNewMeetup = document.getElementById('btn-close');
-    // Get the new meetup window
-    let createNewMeetupWindow = document.getElementById('parent-qstn-area');
 
 
-    // Listen for a click
-    btnCreateNewMeetup.addEventListener('click', openWindow);
+/* start questions end points 
+Required is name and continent*/
+const meetups = [{
+    name: "question01",
+    id: "1"
+}];
 
-    //function to open window
-    function openWindow () {
-        console.log(123);
-    }
+//Root of Endpoint for all users
+app.get('/', (req, res)=> {
+    res.send('You have not made any request')
+});
+
+// shows all meetups available
+app.get('/meetups', (req, res) => {
+    res.send(meetups);
+});
+
+
+//   // port liatening at port 3000 asigned manually
+app.listen(3000, (console.log("listening at port 3000!")));
