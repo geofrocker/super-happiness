@@ -7,20 +7,6 @@ const supertest = require('supertest');
 
 chai.use(require('chai-http'));
 
-// const request = require('supertest');
-// const app = require('../app');
-
-
-
-// describe('Test each order path', () => {
-//     test('It should response the GET method', (done) => {
-//         request(app).get('/questioner.com/api/v1/users/:id').then((response) => {
-//             expect(response.body).toBeDefined();
-//             expect(response.statusCode).toBe(404);
-//             done();
-//         });
-//     });
-// });
 
     // Testing the root get function for users
     describe('Test the questioner root', () => {
@@ -31,11 +17,11 @@ chai.use(require('chai-http'));
               expect(res).to.have.status(200);
             //   expect(res).to.be.json;
               expect(res.body).to.be.an('object');
-            //   expect(res.body.results).to.be.an('array');
             });
         });
     });
 
+    // Testing a specific user to be got from the data base
     describe('A user details', () => {
         it('It should respond with all user requirements', () => {
             return chai.request(app)
