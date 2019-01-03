@@ -5,7 +5,6 @@ questions to be answered. Other users can vote on asked questions and they bubbl
 or bottom of the log.
 
 
-Run the tests
 [![Build Status](https://travis-ci.com/aaronsekisambu/Questioner.svg?branch=develop)](https://travis-ci.com/aaronsekisambu/Questioner)
 
 

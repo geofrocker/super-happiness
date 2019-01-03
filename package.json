@@ -30,7 +30,9 @@
     "type": "git",
     "url": "git+https://github.com/aaronsekisambu/Questioner.git"
   },
-  "keywords": [],
+  "keywords": [
+    "heroku"
+  ],
   "author": "Aaron Sekisambu",
   "license": "ISC",
   "bugs": {
