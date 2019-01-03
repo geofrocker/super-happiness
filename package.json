@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Crowd-source questions for a meetup. Questioner helps the meetup organizer prioritize questions to be answered. Other users can vote on asked questions and they bubble to the top or bottom of the log.",
   "main": "app.js",
+  "engines": {
+    "node": "10.11.0",
+    "npm" : "6.5.0"
+  },
   "dependencies": {
     "body-parser": "^1.18.3",
     "chai": "^4.2.0",
@@ -30,9 +34,7 @@
     "type": "git",
     "url": "git+https://github.com/aaronsekisambu/Questioner.git"
   },
-  "keywords": [
-    "heroku"
-  ],
+  "keywords": [],
   "author": "Aaron Sekisambu",
   "license": "ISC",
   "bugs": {
