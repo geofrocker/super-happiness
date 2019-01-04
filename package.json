@@ -2,7 +2,7 @@
   "name": "Questioner",
   "version": "1.0.0",
   "description": "Crowd-source questions for a meetup. Questioner helps the meetup organizer prioritize questions to be answered. Other users can vote on asked questions and they bubble to the top or bottom of the log.",
-  "main": "app.js",
+  "main": "server.js",
   "dependencies": {
     "body-parser": "^1.18.3",
     "chai": "^4.2.0",
