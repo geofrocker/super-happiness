@@ -24,7 +24,7 @@
     "jest": "^23.6.0"
   },
   "scripts": {
-    "start": "server.js",
+    "start": "node server.js",
     "test": "mocha"
   },
   "repository": {
